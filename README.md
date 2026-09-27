@@ -1,6 +1,6 @@
 # Türkiye TV
 
-71 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik ve dini yayın kanalları. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
+128 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik, dini yayın ve yerel kanallar. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
 
 ## Playlist adresi
 
@@ -32,12 +32,17 @@ Dosya güncellendiğinde aynı adres kullanılmaya devam eder; oynatıcıda list
 
 **Dini:** Diyanet TV, Semerkand TV.
 
+**Yerel:** Aksu TV, Alanya Posta TV, Altas TV, Anadolu Net TV, ATV Alanya, Bir TV, BRTV, Bursa AS TV, Bursa TV, Çay TV, Çekmeköy TV, Deniz Postası TV, Diyar TV, Edessa TV, Er TV, ES TV, ETV Kayseri, ETV Manisa, Fortuna TV, Güneydoğu TV, Haber61 TV, Hunat TV, İçel TV, Kanal 3, Kanal 12, Kanal 15, Kanal 23, Kanal 26, Kanal 32, Kanal 33, Kanal 58, Kanal Fırat, Kanal V, Kay TV, Kent Türk TV, Kocaeli TV, Konya Olay TV, Life TV, Line TV, Mavi Karadeniz, Mercan TV, Meltem TV, MTürk TV, Natural TV, Olay Türk TV, On4 TV, Sun RTV, Tempo TV, Tivi 6, Ton TV, TV 1, TV 41, TV 42, TV 52, TV 264, Urfa Natik TV, Van 65 TV.
+
 ## Logo ve yayın akışı
 
-- Logolar [tv-logo/tv-logos](https://github.com/tv-logo/tv-logos) deposundan `tvg-logo` ile gelir. TRT Genç, TRT Diyanet Çocuk, GZT ve HT Spor için bu depoda logo olmadığından bu kanallarda logo yoktur.
+- Logolar [tv-logo/tv-logos](https://github.com/tv-logo/tv-logos) deposundan `tvg-logo` ile gelir. Depoda logosu bulunmayan 33 kanalda (çoğu yerel kanal) logo yoktur.
 - Yayın akışı, listenin başındaki `url-tvg` adresinden (`https://iptv-epg.org/files/epg-tr.xml`) okunur ve kanallar `tvg-id` ile eşleşir. Oynatıcı `url-tvg` okumuyorsa bu adresi EPG ayarına elle ekleyin. Program bilgisi görünmeyen kanallarda EPG kaynağı o kanalı yayınlamıyor olabilir.
 
 ## Kaynaklar ve çalışma durumu
+
+Yerel kanallar genellikle 7/24 yayın yapmaz; bazıları yalnızca Türkiye'den izlenebilir.
+
 
 Adresler [iptv-org](https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u), [Free-TV](https://github.com/Free-TV/IPTV/blob/master/lists/turkey.md) ve [discevisita](https://github.com/discevisita/iptv/blob/main/tr.m3u) listelerinden seçildi. Video bu depoda barındırılmaz; oynatıcı yayın adresine doğrudan bağlanır.
 
