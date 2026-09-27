@@ -39,6 +39,10 @@ Dosya güncellendiğinde aynı adres kullanılmaya devam eder; oynatıcıda list
 - Logolar [tv-logo/tv-logos](https://github.com/tv-logo/tv-logos) deposundan `tvg-logo` ile gelir. Depoda logosu bulunmayan 33 kanalda (çoğu yerel kanal) logo yoktur.
 - Yayın akışı, listenin başındaki `url-tvg` adresinden (`https://iptv-epg.org/files/epg-tr.xml`) okunur ve kanallar `tvg-id` ile eşleşir. Oynatıcı `url-tvg` okumuyorsa bu adresi EPG ayarına elle ekleyin. Program bilgisi görünmeyen kanallarda EPG kaynağı o kanalı yayınlamıyor olabilir.
 
+## Otomatik yayın kontrolü
+
+`.github/workflows/check-streams.yml` her pazartesi, `turkiye.m3u` değiştiğinde ve Actions sekmesinden elle başlatıldığında tüm adresleri `scripts/check_streams.py` ile dener. Yanıt vermeyen kanallar iş özetinde ve "Yayın kontrolü raporu" adlı issue'da listelenir; hepsi düzelince issue kapanır. Kontrol yurt dışındaki GitHub sunucularından yapıldığı için yalnızca Türkiye'den açılan kanallar bozuk görünebilir.
+
 ## Kaynaklar ve çalışma durumu
 
 Yerel kanallar genellikle 7/24 yayın yapmaz; bazıları yalnızca Türkiye'den izlenebilir.
