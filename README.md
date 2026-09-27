@@ -1,6 +1,6 @@
 # Türkiye TV
 
-129 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik, dini yayın ve yerel kanallar. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
+130 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik, dini yayın ve yerel kanallar. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
 
 ## Playlist adresi
 
@@ -14,7 +14,7 @@ Dosya güncellendiğinde aynı adres kullanılmaya devam eder; oynatıcıda list
 
 ## Kanallar
 
-**TRT:** TRT 1, TRT 2, TRT Haber, TRT Spor, TRT Spor Yıldız, TRT Spor 2, TRT Çocuk, TRT Belgesel, TRT Müzik, TRT Türk, TRT Avaz, TRT World, TRT Arabi, TRT Kurdî, TRT 3, TRT Genç, TRT Diyanet Çocuk, TRT EBA İlkokul, TRT EBA Ortaokul, TRT EBA Lise.
+**TRT:** TRT 1, TRT 2, TRT 4K, TRT Haber, TRT Spor, TRT Spor Yıldız, TRT Spor 2, TRT Çocuk, TRT Belgesel, TRT Müzik, TRT Türk, TRT Avaz, TRT World, TRT Arabi, TRT Kurdî, TRT 3, TRT Genç, TRT Diyanet Çocuk, TRT EBA İlkokul, TRT EBA Ortaokul, TRT EBA Lise.
 
 **Ulusal:** ATV, Kanal D, Show TV, Star TV, NOW, TV8, Kanal 7, 360 TV, Beyaz TV, A2, TV4.
 
@@ -40,6 +40,9 @@ Dosya güncellendiğinde aynı adres kullanılmaya devam eder; oynatıcıda list
 - Yayın akışı, listenin başındaki `url-tvg` adresinden (`https://iptv-epg.org/files/epg-tr.xml`) okunur ve kanallar `tvg-id` ile eşleşir. Oynatıcı `url-tvg` okumuyorsa bu adresi EPG ayarına elle ekleyin. Program bilgisi görünmeyen kanallarda EPG kaynağı o kanalı yayınlamıyor olabilir.
 
 ## Kaynaklar ve çalışma durumu
+
+TRT 4K adresi (`tv-trt4k.medya.trt.com.tr`) hiçbir kaynakta bulunmayan, diğer TRT adreslerinin kalıbından tahmin edilmiş bir adrestir; çalışmayabilir. TRT 4K'nın bilinen yayın yolu Türksat 4A uydusudur (11767 MHz, dikey, 15000).
+
 
 Yerel kanallar genellikle 7/24 yayın yapmaz; bazıları yalnızca Türkiye'den izlenebilir.
 
