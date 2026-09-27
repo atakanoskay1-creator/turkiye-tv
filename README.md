@@ -1,6 +1,6 @@
 # Türkiye TV
 
-128 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik, dini yayın ve yerel kanallar. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
+129 kanal: TRT, ulusal, haber, ekonomi, spor, belgesel, çocuk, müzik, dini yayın ve yerel kanallar. Kanalların logosu ve yayın akışı (EPG) bilgisi listede tanımlıdır.
 
 ## Playlist adresi
 
@@ -14,7 +14,7 @@ Dosya güncellendiğinde aynı adres kullanılmaya devam eder; oynatıcıda list
 
 ## Kanallar
 
-**TRT:** TRT 1, TRT 2, TRT Haber, TRT Spor, TRT Spor Yıldız, TRT Çocuk, TRT Belgesel, TRT Müzik, TRT Türk, TRT Avaz, TRT World, TRT Arabi, TRT Kurdî, TRT 3, TRT Genç, TRT Diyanet Çocuk, TRT EBA İlkokul, TRT EBA Ortaokul, TRT EBA Lise.
+**TRT:** TRT 1, TRT 2, TRT Haber, TRT Spor, TRT Spor Yıldız, TRT Spor 2, TRT Çocuk, TRT Belgesel, TRT Müzik, TRT Türk, TRT Avaz, TRT World, TRT Arabi, TRT Kurdî, TRT 3, TRT Genç, TRT Diyanet Çocuk, TRT EBA İlkokul, TRT EBA Ortaokul, TRT EBA Lise.
 
 **Ulusal:** ATV, Kanal D, Show TV, Star TV, NOW, TV8, Kanal 7, 360 TV, Beyaz TV, A2, TV4.
 
